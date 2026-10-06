@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+
+    background: #f4f7f5;
+
+    font-family: Arial, sans-serif;
+}
+
+
+/* Main container */
+
+.container {
+    width: 100%;
+    max-width: 500px;
+
+    padding: 35px;
+
+    background: white;
+
+    border-radius: 20px;
+
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.12);
+
+    text-align: center;
+}
+
+
+/* Heading */
+
+h1 {
+    margin-bottom: 10px;
+
+    color: #176b3a;
+
+    font-size: 32px;
+}
+
+
+/* Subtitle */
+
+.subtitle {
+    margin-bottom: 30px;
+
+    color: #666;
+
+    font-size: 16px;
+}
+
+
+/* Coordinate boxes */
+
+.coordinate-box {
+    margin-bottom: 15px;
+
+    padding: 20px;
+
+    background: #f1f7f3;
+
+    border: 1px solid #d7e8dc;
+
+    border-radius: 15px;
+
+    text-align: left;
+}
+
+
+/* Labels */
+
+.label {
+    margin-bottom: 8px;
+
+    color: #666;
+
+    font-size: 14px;
+}
+
+
+/* Latitude and longitude values */
+
+.value {
+    color: #176b3a;
+
+    font-size: 24px;
+
+    font-weight: bold;
+
+    word-break: break-word;
+}
+
+
+/* GPS accuracy */
+
+.accuracy {
+    margin-top: 20px;
+
+    color: #555;
+
+    font-size: 15px;
+}
+
+.accuracy strong {
+    color: #176b3a;
+}
+
+
+/* Location button */
+
+button {
+    width: 100%;
+
+    margin-top: 20px;
+
+    padding: 15px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background: #176b3a;
+
+    color: white;
+
+    font-size: 17px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.2s;
+}
+
+
+/* Button hover */
+
+button:hover {
+    background: #0f522c;
+}
+
+
+/* Button click */
+
+button:active {
+    transform: scale(0.98);
+}
+
+
+/* Status message */
+
+#status {
+    margin-top: 20px;
+
+    color: #555;
+
+    font-size: 14px;
+
+    line-height: 1.5;
+}
+
+
+/* Mobile responsive design */
+
+@media (max-width: 600px) {
+
+    .container {
+        padding: 25px 20px;
+    }
+
+    h1 {
+        font-size: 27px;
+    }
+
+    .value {
+        font-size: 21px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+}

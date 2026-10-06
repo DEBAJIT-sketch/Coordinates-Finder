@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Coordinate Finder</title>
+
+    <!-- Connect CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Coordinate Finder</h1>
+
+        <p class="subtitle">
+            Find your current location using GPS
+        </p>
+
+
+        <!-- Latitude -->
+
+        <div class="coordinate-box">
+
+            <div class="label">
+                Latitude
+            </div>
+
+            <div id="latitude" class="value">
+                --
+            </div>
+
+        </div>
+
+
+        <!-- Longitude -->
+
+        <div class="coordinate-box">
+
+            <div class="label">
+                Longitude
+            </div>
+
+            <div id="longitude" class="value">
+                --
+            </div>
+
+        </div>
+
+
+        <!-- GPS Accuracy -->
+
+        <div class="accuracy">
+
+            GPS Accuracy:
+
+            <strong id="accuracy">
+                --
+            </strong>
+
+        </div>
+
+
+        <!-- Location Button -->
+
+        <button id="locationButton"
+                onclick="getLocation()">
+
+            Get My Location
+
+        </button>
+
+
+        <!-- Status -->
+
+        <p id="status">
+
+            Click the button to find your location.
+
+        </p>
+
+    </div>
+
+
+    <!-- Connect JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
