@@ -19,8 +19,6 @@ body {
 }
 
 
-/* Main container */
-
 .container {
     width: 100%;
     max-width: 500px;
@@ -37,8 +35,6 @@ body {
 }
 
 
-/* Heading */
-
 h1 {
     margin-bottom: 10px;
 
@@ -48,8 +44,6 @@ h1 {
 }
 
 
-/* Subtitle */
-
 .subtitle {
     margin-bottom: 30px;
 
@@ -58,8 +52,6 @@ h1 {
     font-size: 16px;
 }
 
-
-/* Coordinate boxes */
 
 .coordinate-box {
     margin-bottom: 15px;
@@ -76,8 +68,6 @@ h1 {
 }
 
 
-/* Labels */
-
 .label {
     margin-bottom: 8px;
 
@@ -86,8 +76,6 @@ h1 {
     font-size: 14px;
 }
 
-
-/* Latitude and longitude values */
 
 .value {
     color: #176b3a;
@@ -99,8 +87,6 @@ h1 {
     word-break: break-word;
 }
 
-
-/* GPS accuracy */
 
 .accuracy {
     margin-top: 20px;
@@ -114,8 +100,6 @@ h1 {
     color: #176b3a;
 }
 
-
-/* Location button */
 
 button {
     width: 100%;
@@ -142,21 +126,14 @@ button {
 }
 
 
-/* Button hover */
-
 button:hover {
     background: #0f522c;
 }
 
 
-/* Button click */
-
 button:active {
     transform: scale(0.98);
 }
-
-
-/* Status message */
 
 #status {
     margin-top: 20px;
@@ -167,9 +144,6 @@ button:active {
 
     line-height: 1.5;
 }
-
-
-/* Mobile responsive design */
 
 @media (max-width: 600px) {
 
